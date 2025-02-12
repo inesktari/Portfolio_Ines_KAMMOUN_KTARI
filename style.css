@@ -17,9 +17,23 @@
     padding-bottom: 4rem;
 }
 
+h3 {
+    font-size: calc(1.3rem + .2vw) !important;
+}
+
 /* display background dark color on navbar scroll */
+.navbarScroll {
+    background-color: rgba(3, 18, 50, 0.8);
+    transition: background-color 0.2s ease-in-out;
+}
+
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #062358;
+}
+
+.nav-link {
+    color: white !important;
+    padding-left: 1rem !important;
 }
 
 /* hero background image */
@@ -29,7 +43,16 @@
     background: url("images/image1.jpg");
     background-size: cover;
     position: relative;
+    width: 100%;
 }
+
+.hero_title, .hero_desc {
+    display: block;
+    width: fit-content;
+    background-color: rgba(3, 18, 50, 0.3);
+    margin: 8px auto;
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
