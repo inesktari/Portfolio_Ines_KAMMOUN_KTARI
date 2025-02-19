@@ -17,6 +17,10 @@
     padding-bottom: 4rem;
 }
 
+body {
+    font-size: 1.125rem !important;
+}
+
 h3 {
     font-size: calc(1.3rem + .2vw) !important;
 }
@@ -71,11 +75,11 @@ h3 {
 
 /* about */
 .imageAboutPage {
-    width: 100%;
-}
-.imageAboutPage {
-    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
 }
 
 /* skills */
@@ -122,3 +126,7 @@ h3 {
 }
 
 /* footer */
+div.row > div.contactColumn > svg {
+    height: 56px;
+    width: 56px;
+}
