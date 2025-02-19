@@ -6,7 +6,7 @@
     },
     {
         "image": "js.jpg",
-        "title": "javascript",
+        "title": "JavaScript",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
@@ -15,8 +15,33 @@
         "text": "Création d’applications React, création de composants et manipulation de leur état"
     },
     {
+        "image": "cypress.png",
+        "title": "Cypress",
+        "text": "Lorem Ipsum is simply dummy text"
+    },
+    {
+        "image": "jira.png",
+        "title": "Jira",
+        "text": "Lorem Ipsum is simply dummy text"
+    },
+    {
+        "image": "notion.png",
+        "title": "Notion",
+        "text": "Lorem Ipsum is simply dummy text"
+    },
+    {
+        "image": "squash.png",
+        "title": "Squash",
+        "text": "Lorem Ipsum is simply dummy text"
+    },
+    {
+        "image": "feedly.png",
+        "title": "Feedly",
+        "text": "Lorem Ipsum is simply dummy text"
+    },
+    {
         "image": "gestion-de-projet.png",
-        "title": "Gestion de projet",
+        "title": "Gestion de projet agile",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
@@ -26,7 +51,12 @@
     },
     {
         "image": "test.png",
-        "title": "Test",
-        "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "title": "Tests",
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+    },
+    {
+        "image": "strategie-de-test.png",
+        "title": "Stratégie de test",
+        "text": "Lorem Ipsum is simply dummy text"
     }
 ]
