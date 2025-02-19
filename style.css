@@ -25,14 +25,18 @@ h3 {
     font-size: calc(1.3rem + .2vw) !important;
 }
 
+p {
+    text-align: justify;
+}
+
 /* display background dark color on navbar scroll */
 .navbarScroll {
-    background-color: rgba(3, 18, 50, 0.8);
-    transition: background-color 0.2s ease-in-out;
+    background: linear-gradient(to right, rgba(35, 30, 79, 0.8), rgba(65, 59, 135, 0.8), rgba(35, 30, 79, 0.8));
 }
 
 .navbarScroll.navbarDark {
-    background-color: #062358;
+    background: linear-gradient(to right, #231e4f, #413b87, #231e4f);
+    transition: background 0.2s ease-in-out;
 }
 
 .nav-link {
@@ -43,8 +47,9 @@ h3 {
 /* hero background image */
 .bgimage {
     height: 100vh;
-    max-height: 900px;
-    background: url("images/image1.jpg");
+    max-height: 1000px;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('images/image1.jpg'); */
+    background: linear-gradient(rgba(35, 30, 79, 0.7), rgba(35, 30, 79, 0.1)), url('images/image1.jpg');
     background-size: cover;
     position: relative;
     width: 100%;
@@ -53,10 +58,14 @@ h3 {
 .hero_title, .hero_desc {
     display: block;
     width: fit-content;
-    background-color: rgba(3, 18, 50, 0.3);
+    /* background-color: rgba(35, 30, 79, 0.1); */
     margin: 8px auto;
 }
 
+.hero-icon {
+    height: 200px;
+    padding-top: 50px;
+}
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -73,7 +82,18 @@ h3 {
     color: white;
 }
 
-/* about */
+#about .aboutRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imageAboutPage {
     width: 250px;
     height: 300px;
@@ -83,9 +103,13 @@ h3 {
 }
 
 /* skills */
+#skills {
+    background: linear-gradient(to right, #d6d6d7, #f3f4f5, #d6d6d7);
+    padding-bottom: 64px;
+    box-sizing: border-box;
+}
 .skillsText.card {
     height: 350px;
-    cursor: pointer;
 }
 .skillsText img {
     width: 100%;
@@ -95,19 +119,47 @@ h3 {
 #skills p {
     text-align: center;
 }
-.skillsIcon {
+/* .skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
-}
+} */
 .card-title {
     text-align: center;
 }
-.card:hover .skillsIcon {
-    color: #008000;
+
+#skills .card {
+    border-radius: 15px !important;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-.skillsText:hover {
-    border: 1px solid #008000;
+
+#portfolio .card {
+    border-radius: 0 0 15px 15px !important;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+/* .card:hover .skillsIcon {
+    color:#231e4f;
+} */
+
+.skillsText:hover,
+.portfolioContent:hover {
+    border: 1px solid #d3d3da;
+    transform: scale(1.05);
+}
+
+/* .card { */
+.skillsText, .portfolioContent {
+    transition: transform 0.3s ease-in-out;
+}
+
+h1, h2, h3, p, .card-title, .card-text {
+    cursor: default;
 }
 
 /* portfolio */
@@ -126,7 +178,30 @@ h3 {
 }
 
 /* footer */
+#contact {
+    background: linear-gradient(to right, #231e4f, #413b87, #231e4f);
+}
+
+.contact-title {
+    color: white;
+}
+
+.contact-detail {
+    color: white;
+}
+
+.fa-phone {
+    color: #198754;
+}
+
+.fa-envelope {
+ color: #b89619;
+}
+
+.fa-linkedin {
+    color: #0a66c2;
+}
+
 div.row > div.contactColumn > svg {
-    height: 56px;
-    width: 56px;
+    width: 42px;
 }
