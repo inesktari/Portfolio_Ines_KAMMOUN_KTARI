@@ -26,7 +26,9 @@ h3 {
 }
 
 p {
-    text-align: justify;
+    text-align: start;
+    word-spacing: 0.2em;
+    line-height: 1.6;
 }
 
 /* display background dark color on navbar scroll */
