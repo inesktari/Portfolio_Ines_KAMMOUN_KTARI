@@ -1,36 +1,36 @@
 [
     {
-        "image": "image1.png",
+        "image": "booki.webp",
         "title": "Booki",
         "text": "Intégration de la page d'accueil d'une agence de voyage en utilisant HTML et CSS, en respectant une maquette Figma, afin d'acquérir des compétences en développement front-end, en design responsive et en optimisation de l'expérience utilisateur sur tous les appareils.",
         "link": "#"
     },
     {
-        "image": "sophie-bluel.jpg",
+        "image": "sophie-bluel.webp",
         "title": "Sophie Bluel",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": ""
+        "link": "https://github.com/inesktari/Sophie-Bluel"
     },
     {
-        "image": "image3.png",
+        "image": "kasa.webp",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "https://github.com/inesktari/kasa"
     },
     {
-        "image": "eco-bliss-bath.jpg",
+        "image": "eco-bliss-bath.webp",
         "title": "Eco Bliss Bath",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "https://github.com/inesktari/EcoBlissBath"
     },
     {
-        "image": "menu-maker.png",
+        "image": "menu-maker.webp",
         "title": "Menu Maker",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": ""
     },
     {
-        "image": "tomsen.png",
+        "image": "tomsen.webp",
         "title": "Tomsen",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": ""

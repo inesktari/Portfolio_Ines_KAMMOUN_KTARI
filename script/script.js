@@ -37,7 +37,17 @@ function createSkillsFromJSON() {
       data.forEach((item, index) => {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
-        card.innerHTML = `
+        if (item.title == "" || item.title == null) {
+          card.innerHTML = `
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <img src="./images/${item.image}" alt="Illustration de la compétence ${item.title}" />
+                            <p class="card-text mt-3">${item.text}</p>
+                        </div>
+                    </div>
+                `;
+        } else {
+          card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
                             <img src="./images/${item.image}" alt="Illustration de la compétence ${item.title}" />
@@ -46,6 +56,7 @@ function createSkillsFromJSON() {
                         </div>
                     </div>
                 `;
+        }
 
         // Append the card to the current row
         row.appendChild(card);
