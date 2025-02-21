@@ -230,3 +230,23 @@ h1, h2, h3, p, .card-title, .card-text {
 div.row > div.contactColumn > svg {
     width: 42px;
 }
+
+/* tablettes (768px à 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .bgimage {
+        height: 100vh;
+    }
+    
+    #about {
+        margin-top: 0;
+        padding-top: 0;;
+    }
+
+    #portfolio {
+        padding-top: 0;;
+    }
+
+    #about .aboutRow {
+        gap: 30px;
+    }
+}
