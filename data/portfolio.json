@@ -1,38 +1,38 @@
 [
     {
-        "image": "booki.webp",
-        "title": "Booki",
-        "text": "Intégration de la page d'accueil d'une agence de voyage en utilisant HTML et CSS, en respectant une maquette Figma, afin d'acquérir des compétences en développement front-end, en design responsive et en optimisation de l'expérience utilisateur sur tous les appareils.",
-        "link": "#"
+        "image": "print-it.webp",
+        "title": "Print it",
+        "text": "Lorem Ipsum is simply dummy text of the printing",
+        "link": "https://github.com/inesktari/Print-it-JS-main/"
     },
     {
         "image": "sophie-bluel.webp",
         "title": "Sophie Bluel",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "https://github.com/inesktari/Sophie-Bluel"
+        "link": "https://github.com/inesktari/Sophie-Bluel/"
     },
     {
         "image": "kasa.webp",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "https://github.com/inesktari/kasa"
+        "link": "https://github.com/inesktari/kasa/"
     },
     {
         "image": "eco-bliss-bath.webp",
         "title": "Eco Bliss Bath",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "https://github.com/inesktari/EcoBlissBath"
+        "text": "Analyse des résultats d'une campagne de tests, identification des scénarios crtiques à automatiser, écriture et exécution des scripts d'automatisation en utilisant Cypress, et rédaction d'un rapport détaillé.",
+        "link": "https://github.com/inesktari/EcoBlissBath/"
     },
     {
         "image": "menu-maker.webp",
         "title": "Menu Maker",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": ""
+        "text": "Plannifier le développement d'un site web, en se basant sur la maquette, les spécifications fonctionnelles et les user Stories du site.",
+        "link": "https://github.com/inesktari/Menu-Maker/"
     },
     {
         "image": "tomsen.webp",
         "title": "Tomsen",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": ""
+        "text": "Analyse des spécifications fonctionnelles, définition d'une stratégie de test, planification des tests par sprints en adoptant une approche agile, et rédaction d'un cahier de recette détaillé.",
+        "link": "https://github.com/inesktari/TOMSEN/"
     }
 ]

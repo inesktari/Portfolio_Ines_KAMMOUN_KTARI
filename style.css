@@ -142,7 +142,7 @@ p {
 .card-img-top {
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -151,9 +151,9 @@ p {
 } */
 
 .skillsText:hover,
-.portfolioContent:hover {
+.portfolioContent:hover
+{
     border: 1px solid #d3d3da;
-    transform: scale(1.05);
 }
 
 /* .card { */
@@ -178,6 +178,28 @@ h1, h2, h3, p, .card-title, .card-text {
 }
 .contactColumn i {
     color: #198754;
+}
+
+.img-container-portfolio {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-text-portfolio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(to right, #d6d6d7, #f3f4f5, #d6d6d7);
+    padding: 8px;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.img-container-portfolio:hover .card-text-portfolio {
+    transform: translateY(0);
 }
 
 /* footer */
