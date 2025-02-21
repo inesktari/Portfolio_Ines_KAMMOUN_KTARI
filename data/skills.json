@@ -1,45 +1,45 @@
 [
     {
         "image": "html-css.webp",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation des maquettes Figma, et développement d’animations CSS."
     },
     {
         "image": "js.webp",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "text": "Manipulation du DOM, création d’éléments dynamiques, et gestion de données des formulaires."
     },
     {
         "image": "react.webp",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "text": "Création d’applications React, configuration de la navigation, développement des composants pour l'interface, et afficher les données du back-end via des appels API."
     },
     {
         "image": "cypress.webp",
-        "text": "Lorem Ipsum is simply dummy text"
+        "text": "Écrire des scripts en JavaScript pour automatiser des tests fonctionnels, d'API et des smoke tests."
     },
     {
         "image": "jira.webp",
-        "text": "Lorem Ipsum is simply dummy text"
+        "text": "Gestion de projet agile, suivi et priorisation des tâches et des anomalies, et reporting détaillé."
     },
     {
         "image": "notion.webp",
-        "text": "Lorem Ipsum is simply dummy text"
+        "text": "Gestion de projet agile, planification de sprints, gestion de workflow via Kanban, et répartition des tâches au sein d'une équipe."
     },
     {
         "image": "gestion-de-projet.webp",
         "title": "Gestion de projet agile",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "text": "Analyse des besoins du client, définition d’une solution technique répondant aux exigences fonctionnelles, puis une planification du projet."
     },
     {
         "image": "test.webp",
         "title": "Tests",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test, rédaction d’un cahier de recette, et automatisation de tests E2E et d’API."
     },
     {
         "image": "optimisation-et-debug.webp",
         "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "text": "Identification et correction des anomalies d’un site existant, optimisation de ses performances et de son SEO, et publication d’un site en ligne."
     },
     {
         "image": "squash.webp",
-        "text": "Lorem Ipsum is simply dummy text"
+        "text": "Gestion du cycle de vie des tests, de la conception, à l’exécution et au suivi des campagnes de test, tout en assurant une couverture complète des exigences."
     }
 ]

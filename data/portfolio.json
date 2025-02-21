@@ -2,19 +2,19 @@
     {
         "image": "print-it.webp",
         "title": "Print it",
-        "text": "Lorem Ipsum is simply dummy text of the printing",
+        "text": "Mise à jour d'un code HTML en ajoutant un carrousel en JavaScript.",
         "link": "https://github.com/inesktari/Print-it-JS-main/"
     },
     {
         "image": "sophie-bluel.webp",
         "title": "Sophie Bluel",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Création d'une page web dynamique pour le site d'une architecte en communiquant avec une API, pour présenter ses travaux, une page de connexion pour l'administrateur du site, et une modale permettant d'uploader de nouveaux médias.",
         "link": "https://github.com/inesktari/Sophie-Bluel/"
     },
     {
         "image": "kasa.webp",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Implémentation du front-end d'une application web moderne de location de logement, en utilisant React pour créer des composants de l'interface, et React Router pour la navigation.",
         "link": "https://github.com/inesktari/kasa/"
     },
     {
