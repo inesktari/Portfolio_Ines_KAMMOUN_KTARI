@@ -2,11 +2,15 @@
 /* spacing on all sections */
 #about,
 #skills,
-#portfolio,
 #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 }
+
+#portfolio {
+    padding-top: 4rem;
+}
+
 #about h2,
 #skills h2,
 #portfolio h2,
@@ -20,11 +24,9 @@
 body {
     font-size: 1.125rem !important;
 }
-
 h3 {
     font-size: calc(1.3rem + .2vw) !important;
 }
-
 p {
     text-align: start;
     word-spacing: 0.2em;
@@ -35,12 +37,10 @@ p {
 .navbarScroll {
     background: linear-gradient(to right, rgba(35, 30, 79, 0.8), rgba(65, 59, 135, 0.8), rgba(35, 30, 79, 0.8));
 }
-
 .navbarScroll.navbarDark {
     background: linear-gradient(to right, #231e4f, #413b87, #231e4f);
     transition: background 0.2s ease-in-out;
 }
-
 .nav-link {
     color: white !important;
     padding-left: 1rem !important;
@@ -62,7 +62,6 @@ p {
     /* background-color: rgba(35, 30, 79, 0.1); */
     margin: 8px auto;
 }
-
 .hero-icon {
     height: 200px;
     padding-top: 50px;
@@ -83,18 +82,17 @@ p {
     color: white;
 }
 
+/* about */
 #about .aboutRow {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .aboutImg {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .imageAboutPage {
     width: 250px;
     height: 300px;
@@ -120,11 +118,7 @@ p {
 #skills p {
     text-align: center;
 }
-/* .skillsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-} */
+
 .card-title {
     text-align: center;
 }
@@ -138,7 +132,6 @@ p {
     border-radius: 0 0 15px 15px !important;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-
 .card-img-top {
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
@@ -146,17 +139,12 @@ p {
     object-fit: cover;
 }
 
-/* .card:hover .skillsIcon {
-    color:#231e4f;
-} */
-
 .skillsText:hover,
 .portfolioContent:hover
 {
     border: 1px solid #a1a1b6;
 }
 
-/* .card { */
 .skillsText, .portfolioContent {
     transition: transform 0.3s ease-in-out;
 }
@@ -169,22 +157,10 @@ h1, h2, h3, p, .card-title, .card-text {
 #portfolio p {
     text-align: center;
 }
-
-/* contact */
-.contactColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contactColumn i {
-    color: #198754;
-}
-
 .img-container-portfolio {
     position: relative;
     overflow: hidden;
 }
-
 .card-text-portfolio {
     position: absolute;
     bottom: 0;
@@ -197,36 +173,37 @@ h1, h2, h3, p, .card-title, .card-text {
     transition: transform 0.5s ease-in-out;
     z-index: 1;
 }
-
 .img-container-portfolio:hover .card-text-portfolio {
     transform: translateY(0);
 }
 
-/* footer */
+/* contact */
 #contact {
     background: linear-gradient(to right, #231e4f, #413b87, #231e4f);
 }
-
+.contactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactColumn i {
+    color: #198754;
+}
 .contact-title {
     color: white;
 }
-
 .contact-detail {
     color: white;
 }
-
 .fa-phone {
     color: #198754;
 }
-
 .fa-envelope {
  color: #b89619;
 }
-
 .fa-linkedin {
     color: #0a66c2;
 }
-
 div.row > div.contactColumn > svg {
     width: 42px;
 }
@@ -236,16 +213,10 @@ div.row > div.contactColumn > svg {
     .bgimage {
         height: 100vh;
     }
-    
-    #about {
-        margin-top: 0;
-        padding-top: 0;;
+    #skills {
+        margin-top: 5rem;
+        padding-top: 5rem;
     }
-
-    #portfolio {
-        padding-top: 0;;
-    }
-
     #about .aboutRow {
         gap: 30px;
     }
