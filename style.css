@@ -173,7 +173,7 @@ h1, h2, h3, p, .card-title, .card-text {
     transition: transform 0.5s ease-in-out;
     z-index: 1;
 }
-.img-container-portfolio:hover .card-text-portfolio {
+.portfolioContent:hover .card-text-portfolio {
     transform: translateY(0);
 }
 
@@ -208,8 +208,8 @@ div.row > div.contactColumn > svg {
     width: 42px;
 }
 
-/* tablettes (768px à 1024px) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* tablettes and mobile */
+@media screen and (max-width: 992px) {
     .bgimage {
         height: 100vh;
     }
@@ -219,5 +219,8 @@ div.row > div.contactColumn > svg {
     }
     #about .aboutRow {
         gap: 30px;
+    }
+    .skillsText.card {
+        height: auto;
     }
 }

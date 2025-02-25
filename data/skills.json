@@ -9,20 +9,20 @@
     },
     {
         "image": "react.webp",
-        "text": "Création d’applications React, configuration de la navigation, développement des composants pour l'interface, et afficher les données du back-end via des appels API."
+        "text": "Création d’applications React, configuration de la navigation, développement des composants pour l'interface, et affichage des données du back-end via des appels API."
     },
     {
         "image": "cypress.webp",
-        "text": "Écrire des scripts en JavaScript pour automatiser des tests fonctionnels, d'API et des smoke tests."
+        "text": "Écriture des scripts en JavaScript pour automatiser des tests fonctionnels, d'API et des smoke tests."
     },
     {
         "image": "jira.webp",
-        "text": "Gestion de projet agile et du workflow via Kanban, planification de sprints et répartition des tâches au sein d'une équipe, suivi et reporting des anomalies."
+        "text": "Organisation du workflow via Kanban, planification des sprints, répartition des tâches au sein d'une équipe et reporting des anomalies."
     },
     {
         "image": "gestion-de-projet.webp",
         "title": "Gestion de projet agile",
-        "text": "Analyse des besoins du client, définition d’une solution technique répondant aux exigences fonctionnelles, puis une planification du projet."
+        "text": "Analyse des besoins du client, définition d'une solution technique adaptée aux exigences fonctionnelles et planification détaillée du projet."
     },
     {
         "image": "test.webp",
@@ -36,6 +36,6 @@
     },
     {
         "image": "squash.webp",
-        "text": "Gestion du cycle de vie des tests, de la conception, à l’exécution et au suivi des campagnes de test, tout en assurant une couverture complète des exigences."
+        "text": "Gestion du cycle de vie des tests, de la conception, à l’exécution et au suivi des campagnes de test, garantissant une couverture exhaustive des exigences."
     }
 ]

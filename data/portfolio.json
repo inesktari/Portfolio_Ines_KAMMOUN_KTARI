@@ -8,7 +8,7 @@
     {
         "image": "sophie-bluel.webp",
         "title": "Sophie Bluel",
-        "text": "Création d'une page web dynamique pour le site d'une architecte en communiquant avec une API, pour présenter ses travaux, une page de connexion pour l'administrateur du site, et une modale permettant d'uploader de nouveaux médias.",
+        "text": "Création d'une page web dynamique pour le site d'une architecte, en communiquant avec une API pour présenter ses travaux, une page de connexion pour l'administrateur du site, et une modale permettant d'uploader de nouveaux médias.",
         "link": "https://github.com/inesktari/Sophie-Bluel/"
     },
     {
@@ -20,7 +20,7 @@
     {
         "image": "eco-bliss-bath.webp",
         "title": "Eco Bliss Bath",
-        "text": "Analyse des résultats d'une campagne de tests, identification des scénarios crtiques à automatiser, écriture et exécution des scripts d'automatisation en utilisant Cypress, et rédaction d'un rapport détaillé.",
+        "text": "Analyse des résultats d'une campagne de tests, identification des scénarios critiques à automatiser, écriture et exécution des scripts d'automatisation en utilisant Cypress, et rédaction d'un rapport détaillé.",
         "link": "https://github.com/inesktari/EcoBlissBath/"
     },
     {
