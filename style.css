@@ -207,6 +207,10 @@ h1, h2, h3, p, .card-title, .card-text {
 div.row > div.contactColumn > svg {
     width: 42px;
 }
+#contact a {
+    text-decoration: none;
+    color: white;
+}
 
 /* tablettes and mobile */
 @media screen and (max-width: 992px) {
