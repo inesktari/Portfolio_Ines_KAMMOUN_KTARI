@@ -16,6 +16,10 @@
         "text": "Écriture des scripts en JavaScript pour automatiser des tests fonctionnels, d'API et des smoke tests."
     },
     {
+        "image": "robot-framework.webp",
+        "text": "Automatisation des tests UI et API avec Robot Framework, SeleniumLibrary et RequestsLibrary."
+    },
+    {
         "image": "jira.webp",
         "text": "Organisation du workflow via Kanban, planification des sprints, répartition des tâches au sein d'une équipe et reporting des anomalies."
     },

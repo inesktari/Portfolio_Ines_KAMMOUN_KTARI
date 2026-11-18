@@ -1,5 +1,11 @@
 [
     {
+        "image": "eco-bliss-bath.webp",
+        "title": "Eco Bliss Bath — Robot Framework",
+        "text": "Automatisation des tests UI et API d’un site e-commerce. J’ai conçu des scénarios positifs et négatifs, sélectionné quatre smoke tests et documenté les anomalies dans GitHub Issues.",
+        "link": "https://github.com/inesktari/EcoBlissBathRobotFramework"
+    },
+    {
         "image": "print-it.webp",
         "title": "Print it",
         "text": "Mise à jour d'un code HTML en ajoutant un carrousel en JavaScript.",
@@ -19,7 +25,7 @@
     },
     {
         "image": "eco-bliss-bath.webp",
-        "title": "Eco Bliss Bath",
+        "title": "Eco Bliss Bath — Cypress",
         "text": "Analyse des résultats d'une campagne de tests, identification des scénarios critiques à automatiser, écriture et exécution des scripts d'automatisation en utilisant Cypress, et rédaction d'un rapport détaillé.",
         "link": "https://github.com/inesktari/EcoBlissBath/"
     },
